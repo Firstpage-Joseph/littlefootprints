@@ -2758,4 +2758,18 @@ console.log('Blog page tags:', concatenatedTags);
   <div id="hs-web-interactives-floating-bottom-right-anchor" class="go2417249464 go3967842156">
   </div>
 </div><iframe height="0" width="0" style="display: none; visibility: hidden;" data-gtm-yt-inspected-20="true" data-gtm-yt-inspected-118077752_312="true" src="assets/saved_resource.html"></iframe>
-<script type="text/javascript" src="chrome-extension://cjfdbemmaeeohgibnhdhlakiahifjjcf/injected.js"></script></body><!-- Version: undefined --></html>
+<script type="text/javascript" src="chrome-extension://cjfdbemmaeeohgibnhdhlakiahifjjcf/injected.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("a").forEach(function(link) {
+        link.addEventListener("click", function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          alert("This is a mockup. Links are disabled on this page.");
+        });
+      });
+    });
+    </script>
+    
+</body><!-- Version: undefined --></html>

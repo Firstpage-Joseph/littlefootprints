@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Programme" transform="translate(-277 -985)">
+    <rect id="Rectangle_7244" data-name="Rectangle 7244" width="26" height="26" transform="translate(277 985)" fill="#fff" opacity="0"/>
+    <g id="_10-Document" data-name="10-Document" transform="translate(279.5 989)">
+      <path id="Path_16793" data-name="Path 16793" d="M14.057,1H6.317L3,4.317v11.61a1.659,1.659,0,0,0,1.659,1.659h8.293" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_16794" data-name="Path 16794" d="M6.317,1V4.317H3" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_16795" data-name="Path 16795" d="M27.211,16.927V3.659L26.106,2,25,3.659V16.927a1.106,1.106,0,1,0,2.211,0Z" transform="translate(-9.837 -0.447)" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_539" data-name="Line 539" x2="7.187" transform="translate(5.764 14.269)" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_540" data-name="Line 540" x2="7.187" transform="translate(5.764 11.504)" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_541" data-name="Line 541" x2="4.976" transform="translate(7.976 8.74)" fill="none" stroke="#75bee9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Ellipse_387" data-name="Ellipse 387" cx="0.553" cy="0.553" r="0.553" transform="translate(12.399 5.423)" fill="#75bee9"/>
+      <circle id="Ellipse_388" data-name="Ellipse 388" cx="0.553" cy="0.553" r="0.553" transform="translate(10.187 5.423)" fill="#75bee9"/>
+    </g>
+  </g>
+</svg>

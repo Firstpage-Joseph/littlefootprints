@@ -1099,41 +1099,85 @@ initMobileDropdowns();
       </div>
     </div>
 
-    <!-- Feature Cards -->
-    <div class="row g-4 mb-5" style="margin-bottom: 120px !important;">
-      <div class="col-lg-6">
-        <div class="card h-100 border-0 shadow-sm" style="border-radius:16px;background-color: #eee;">
-          <div class="card-body p-4 p-lg-5">
-            <h3 class="h3 mb-3 main_title main_title_smaller">Sensory Oasis&reg; for Infants</h3>
-            <img src="assets/IMG_1460%20-%20resize.jpg" alt="Sensory Oasis for Infants" class="img-fluid mb-3">
-            <p class="text_content  mb-3">
-              Infants need to tumble, play and learn. But just as important is a place to sleep, rest and recharge. That&rsquo;s why every KiddiWinkie Schoolhouse is equipped with an exclusive
-              <a href="https://kiddiwinkie.edu.sg/blog/inside-sensory-oasis-infant-care-singapore">Sensory Oasis&reg;</a>
-              &ndash; a calming, multi-sensory environment designed to support your baby&rsquo;s development from the earliest months.
-            </p>
-            <p class="text_content mb-0">
-              Inspired by the proven Snoezelen concept, a controlled environment developed in the Netherlands in the late 1970s that blends gentle stimulation with a soothing atmosphere, soothing lights, gentle sounds, soft textures, and gentle interactive play come together to create a rich, multisensory experience that nurtures sensory development, supports emotional regulation and encourages curiosity in infants.
-            </p>
-          </div>
+   <div class="sensory-alt-wrap">
+
+  <!-- Row 1 -->
+  <div class="card border-0 shadow-sm sensory-alt-card mb-4" style="border-radius:16px; background-color:#eee;">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-5">
+        <div class="sensory-alt-image-wrap h-100">
+          <img src="assets/IMG_1460%20-%20resize.jpg" alt="Sensory Oasis for Infants" class="img-fluid sensory-alt-image">
         </div>
       </div>
-
-      <div class="col-lg-6">
-        <div class="card h-100 border-0 shadow-sm" style="border-radius:16px;background-color: #eee;">
-          <div class="card-body p-4 p-lg-5">
-            <h3 class="h3 mb-3 main_title main_title_smaller">Progressing to Playgroup and Beyond</h3>
-            <img src="assets/grow-progressive.jpg" alt="Progressing to Playgroup and Beyond" class="img-fluid mb-3">
-            <p class="text_content mb-0">
-              As infants grow, we ensure a smooth transition into the
-              <a href="https://kiddiwinkie.edu.sg/our-curriculum/playgroup">playgroup curriculum</a>
-              through our GROW Space, an extension of the Sensory Oasis&reg; experience located within every classroom. This is a dedicated zone for
-              <a href="https://kiddiwinkie.edu.sg/blog/nurturing-emotional-intelligence-in-preschoolers">early childhood emotional development</a>,
-              where our educators gently introduce age-appropriate strategies to help little ones manage their feelings and build resilience. This strong foundation prepares them not just for preschool, but for life.
-            </p>
-          </div>
+      <div class="col-lg-7">
+        <div class="card-body p-4 p-lg-5">
+          <h3 class="h3 mb-3 main_title main_title_smaller">Sensory Oasis&reg; for Infants</h3>
+          <p class="text_content mb-3">
+            Infants need to tumble, play and learn. But just as important is a place to sleep, rest and recharge. That&rsquo;s why every KiddiWinkie Schoolhouse is equipped with an exclusive
+            <a href="https://kiddiwinkie.edu.sg/blog/inside-sensory-oasis-infant-care-singapore">Sensory Oasis&reg;</a>
+            &ndash; a calming, multi-sensory environment designed to support your baby&rsquo;s development from the earliest months.
+          </p>
+          <p class="text_content mb-0">
+            Inspired by the proven Snoezelen concept, a controlled environment developed in the Netherlands in the late 1970s that blends gentle stimulation with a soothing atmosphere, soothing lights, gentle sounds, soft textures, and gentle interactive play come together to create a rich, multisensory experience that nurtures sensory development, supports emotional regulation and encourages curiosity in infants.
+          </p>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="card border-0 shadow-sm sensory-alt-card mb-4" style="border-radius:16px; background-color:#eee;">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-5 order-lg-2">
+        <div class="sensory-alt-image-wrap h-100">
+          <img src="assets/grow-progressive.jpg" alt="Progressing to Playgroup and Beyond" class="img-fluid sensory-alt-image">
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-1">
+        <div class="card-body p-4 p-lg-5">
+          <h3 class="h3 mb-3 main_title main_title_smaller">Progressing to Playgroup and Beyond</h3>
+          <p class="text_content mb-0">
+            As infants grow, we ensure a smooth transition into the
+            <a href="https://kiddiwinkie.edu.sg/our-curriculum/playgroup">playgroup curriculum</a>
+            through our GROW Space, an extension of the Sensory Oasis&reg; experience located within every classroom. This is a dedicated zone for
+            <a href="https://kiddiwinkie.edu.sg/blog/nurturing-emotional-intelligence-in-preschoolers">early childhood emotional development</a>,
+            where our educators gently introduce age-appropriate strategies to help little ones manage their feelings and build resilience. This strong foundation prepares them not just for preschool, but for life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.sensory-alt-wrap {
+  margin-bottom: 120px;
+}
+
+.sensory-alt-card {
+  overflow: hidden;
+}
+
+.sensory-alt-image-wrap {
+  height: 100%;
+}
+
+.sensory-alt-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 320px;
+}
+
+@media (max-width: 991.98px) {
+  .sensory-alt-image {
+    min-height: auto;
+    height: auto;
+  }
+}
+</style>
 
     <!-- Fees Section -->
     <div class="row justify-content-center mb-0 mt-5">
@@ -1883,6 +1927,77 @@ initMobileDropdowns();
   </script>
 </section>
 
+
+
+
+<section class="py-5" style="background:#f8f9fa;margin-bottom: 50px;">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-8 text-center center-title">
+        <h2 class="main_title mb-3 ">Why Choose Us</h2>
+      </div>
+    </div>
+
+    <!-- USP Cards -->
+    <div class="row g-4 text-center">
+
+      <!-- USP 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 h-100 bg-white shadow-sm rounded-3 d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="mb-3">
+            <img src="assets/20-years.jpg" style="height: 80px;" />
+          </div>
+          <h3 class="h6 fw-bold mb-0">
+            20+ Years Of Experience
+          </h3>
+        </div>
+      </div>
+
+      <!-- USP 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 h-100 bg-white shadow-sm rounded-3 d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="mb-3">
+            <img src="assets/sensory.avif" style="height: 80px;" />
+          </div>
+          <h3 class="h6 fw-bold mb-0">
+           First Sensory Oasis® in Singapore
+          </h3>
+        </div>
+      </div>
+
+
+
+      <!-- USP 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="p-4 h-100 bg-white shadow-sm rounded-3 d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="mb-3">
+            <img src="assets/babilou.jpeg" style="height: 80px;" />
+          </div>
+          <h3 class="h6 fw-bold mb-0">
+            Part Of The Babilou Family Global Network
+          </h3>
+        </div>
+      </div>
+
+      <!-- USP 4 -->
+      <div class="col-md-6 col-lg-3">
+          <div class="p-4 h-100 bg-white shadow-sm rounded-3 d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="mb-3">
+            <i class="fa-solid fa-shield-check fa-2x text-primary"></i>
+            <img src="assets/ecda.webp" style="height: 50px;" />
+          </div>
+          <h3 class="h6 fw-bold mb-0">
+            ECDA-Licensed
+          </h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
 
